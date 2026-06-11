@@ -1,0 +1,46 @@
+# =============================================================================
+# .gitignore — dns-application-layer-lab
+# =============================================================================
+
+# Packet captures — can be large and contain sensitive traffic
+*.pcap
+*.pcapng
+*.cap
+dns_capture.*
+
+# tshark / tcpdump output
+*.dmp
+
+# TSIG key files — never commit secrets
+*.key
+*.private
+tsig-*.conf
+transfer-*.key
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+/tmp/
+
+# Python (if any scripts are extended)
+__pycache__/
+*.pyc
+.env
+venv/
+
+# dig batch output files
+batch_output_*.txt
+results_*.txt

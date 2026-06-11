@@ -1,0 +1,23 @@
+# domains.txt — Sample domain list for batch DNS queries
+# Used by: bash scripts/batch_query.sh
+# One domain per line. Lines starting with # are ignored.
+#
+# Usage:
+#   dig -f scripts/batch/domains.txt +short
+#   bash scripts/batch_query.sh scripts/batch/domains.txt A
+
+google.com
+facebook.com
+github.com
+amazon.com
+cloudflare.com
+microsoft.com
+apple.com
+twitter.com
+linkedin.com
+youtube.com
+wikipedia.org
+reddit.com
+stackoverflow.com
+netflix.com
+instagram.com
