@@ -1,7 +1,4 @@
-# DNS & Application Layer Protocols — Lab 1
-
-> **PMICS | CSE | University of Dhaka**  
-> Instructor: Mohammad Shahadat Hossain
+# DNS & Application Layer Protocols
 
 [![Platform](https://img.shields.io/badge/Platform-Linux%20%2F%20Kali-informational?logo=linux)]()
 [![Tool](https://img.shields.io/badge/Tool-dig%20%7C%20Wireshark-blue)]()
